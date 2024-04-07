@@ -91,7 +91,7 @@ brew install peco
 1. [peco/config.json](.config/peco/config.json)
 1. [tmux.conf](.config/tmux/tmux.conf)
 1. [tmux/macos.conf](.config/tmux/macos.conf)
-1. [tmux/statusline.conf](.config/tmux/statusline.conf)
+1. [tmux/status_line.conf](.config/tmux/status_line.conf)
 1. [tmux/utility.conf](.config/tmux/utility.conf)
 
 ### Software installation (let the dotfiles work)
@@ -158,7 +158,7 @@ mkdir ~/.config/peco
 ln -s ~/.dotfiles/.config/peco/config.json ~/.config/peco/config.json
 ln -s ~/.dotfiles/.config/nvim/init.lua ~/.config/nvim/init.lua
 ln -s ~/developer/github_repository/dotfiles/.config/tmux/macos.conf  ~/.config/tmux/macos.conf
-ln -s ~/.dotfiles/.config/tmux/statusline.conf  ~/.config/tmux/statusline.conf
+ln -s ~/.dotfiles/.config/tmux/status_line.conf  ~/.config/tmux/status_line.conf
 ln -s ~/.dotfiles/.config/tmux/tmux.conf  ~/.config/tmux/tmux.conf
 ln -s ~/.dotfiles/.config/tmux/utility.conf  ~/.config/tmux/utility.conf
 ```
