@@ -52,13 +52,13 @@ brew install peco
 #### Manual font installation
 
 1. Download these four ttf files:
-   - [MesloLGS NF Regular.ttf](
+    - [MesloLGS NF Regular.ttf](
        https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf)
-   - [MesloLGS NF Bold.ttf](
+    - [MesloLGS NF Bold.ttf](
        https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf)
-   - [MesloLGS NF Italic.ttf](
+    - [MesloLGS NF Italic.ttf](
        https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf)
-   - [MesloLGS NF Bold Italic.ttf](
+    - [MesloLGS NF Bold Italic.ttf](
        https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf)
 1. Double-click on each file and click "Install". This will make `MesloLGS NF` font available to all
    applications on your system.
