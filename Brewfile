@@ -1,6 +1,6 @@
 tap "homebrew/bundle"
-# Modern replacement for 'ls'
-brew "exa"
+# Modern, maintained replacement for ls
+brew "eza"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
 # Distributed revision control system

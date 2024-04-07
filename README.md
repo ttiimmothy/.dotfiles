@@ -30,23 +30,22 @@ Dotfiles is for storing dotfiles to kickstart.
 - [Fisher](https://github.com/jorgebucaran/fisher) - Plugin manager
 - [Tide](https://github.com/IlanCosman/tide) - Shell theme. Use version 5: `fisher install ilancosman/tide@v5`
 - Nerd fonts - Powerline-patched fonts. It can be directly downloaded from the [files](#font-installation) below without using `homebrew`, so **Don't** do `brew install font-hack-nerd-font`. It will consume more storages by installing from `homebrew`.
-- [Exa](https://github.com/ogham/exa) - `ls` replacement
+- [Eza](https://github.com/eza-community/eza) - `ls` replacement
 - [Peco](https://github.com/peco/peco) - Interactive filtering
-- [Zoxide](https://github.com/ajeetdsouza/zoxide) - Directory jumping
+- [Zoxide](https://github.com/ajeetdsouza/zoxide) - Directory jumping, `cd` replacement with extensive features
 
-#### Commands for installing `exa` and `peco`
+#### Commands for installing `eza` and `peco`
 
 ```bash
-brew install exa
+brew install eza
 brew install peco
 ```
 
 ##### Optional installation for `fish shell`
 
 - [ghq](https://github.com/x-motemen/ghq) - Local Git repository organizer
-- [fzf](https://github.com/PatrickF1/fzf.fish) - Interactive filtering, `peco` replacement
-- [Eza](https://github.com/eza-community/eza) - `ls` replacement, `exa` replacement
-- [z for fish](https://github.com/jethrokuan/z) - Directory jumping
+- [fzf](https://github.com/PatrickF1/fzf.fish) - Interactive filtering, fuzzy finder in fish shell
+- [z for fish](https://github.com/jethrokuan/z) - Directory jumping, `cd` replacement  with extensive features
 
 ### Font Installation
 
@@ -73,7 +72,7 @@ brew install peco
 
 ### Images for fish shell
 
-![exa(lla) screenshot](images/lla.png)
+![eza(lla) screenshot](images/lla.png)
 ![peco(control + R) screenshot](images/peco.png)
 
 ## dotfiles (current)
@@ -110,7 +109,7 @@ brew install peco
 
 `git`
 
-`exa`
+`eza`
 
 `fish`
 
