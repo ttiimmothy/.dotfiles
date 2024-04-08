@@ -29,4 +29,3 @@
 	pull-allow = pull --allow-unrelated-histories
 	co = commit --allow-empty --gpg-sign
 	cout = checkout
-	push-main = push -u origin main
