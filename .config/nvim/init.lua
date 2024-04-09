@@ -155,12 +155,11 @@ require("lazy").setup({
       -- Slightly advanced example of overriding default behavior and theme
       vim.keymap.set("n", "<leader>/", function()
         -- You can pass additional configuration to Telescope to change the theme, layout, etc.
-        builtin.current_buffer_fuzzy_find(require("telescope.themes").get_dropdown({}))
-          -- winblend = 80,
-          -- previewer = true,
-        -- }))
+        builtin.current_buffer_fuzzy_find(require("telescope.themes").get_dropdown({
+          winblend = 80,
+          previewer = true,
+        }))
       end, { desc = "[/] Fuzzily search in current buffer" })
-      vim.keymap.set("n", "<leader>gf", builtin.git_files, { desc = "Search [G]it [F]iles" })
       -- It's also possible to pass additional configuration options.
       -- See `:help telescope.builtin.live_grep()` for information about particular keys
       vim.keymap.set("n", "<leader>s/", function()
