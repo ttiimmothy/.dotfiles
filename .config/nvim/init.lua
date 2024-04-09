@@ -45,7 +45,7 @@ vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 -- for not storing the word that is replaced in the clipboard and store the origin yanked word
 vim.keymap.set("x", "<leader>p", [["_dP]])
 -- useful words replacement command
-vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
+vim.keymap.set("n", "<leader>rw", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]], { desc = "[R]eplace [W]ord" })
 vim.keymap.set('n', '<leader>pv', vim.cmd.Ex, { desc = 'Explore the directory' })
 vim.api.nvim_create_autocmd('TextYankPost', {
   desc = 'Highlight when yanking (copying) text',
