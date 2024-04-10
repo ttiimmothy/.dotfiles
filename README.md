@@ -148,8 +148,8 @@ ln -s ~.dotfiles/.zshenv ~/.zshenv
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/moderator/.gitignore_global ~/.gitignore_global
 ln -s ~/.dotfiles/.profile ~/.profile
-ln -s ~/.dotfiles/.config/fish/config.fish ~/.config/fish/config.fish
 ln -s ~.dotfiles/.config/fish/config-osx.fish ~/.config/fish/config-osx.fish
+ln -s ~/.dotfiles/.config/fish/config.fish ~/.config/fish/config.fish
 ln -s ~/.dotfiles/.config/fish/conf.d/tide.fish ~/.config/fish/conf.d/tide.fish
 ln -s ~/.dotfiles/.config/fish/functions/fish_user_key_bindings.fish ~/.config/fish/functions/fish_user_key_bindings.fish
 ln -s ~/.dotfiles/.config/fish/functions/peco_select_history.fish ~/.config/fish/functions/peco_select_history.fish
