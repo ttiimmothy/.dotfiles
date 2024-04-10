@@ -12,8 +12,7 @@ Dotfiles is for storing dotfiles to kickstart.
 - [Terminal configuration](#terminal-configuration)
 - [Dotfiles](#dotfiles-current)
 - [Git configuration](#git-configuration)
-- [Create symlink (symbolic link)](#create-symlinks-in-the-home-directory-to-the-real-files-in-the-repo)
-- [Install homebrew software (optional)](#install-homebrew-software)
+- [Create symlink (symbolic link)](#create-symlinks-in-the-home-directory)
 - [License](#license)
 
 ### Requirements
@@ -139,41 +138,28 @@ ssh-keygen
 
 - [ ] `GPG (GNU Privacy Guard) key` is stored in `~/.gnupg` after installation
 
-## Create symlinks in the Home directory to the real files in the repo
+## Create symlinks in the home directory
 
 ```zsh
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
+ln -s ~.dotfiles/.zprofile ~/.zprofile
+ln -s ~.dotfiles/.zshenv ~/.zshenv
 # need to update own gitconfig first
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/moderator/.gitignore_global ~/.gitignore_global
 ln -s ~/.dotfiles/.profile ~/.profile
-ln -s ~.dotfiles/.zprofile ~/.zprofile
-ln -s ~.dotfiles/.zshenv ~/.zshenv
 ln -s ~/.dotfiles/.config/fish/config.fish ~/.config/fish/config.fish
 ln -s ~.dotfiles/.config/fish/config-osx.fish ~/.config/fish/config-osx.fish
+ln -s ~/.dotfiles/.config/fish/conf.d/tide.fish ~/.config/fish/conf.d/tide.fish
 ln -s ~/.dotfiles/.config/fish/functions/fish_user_key_bindings.fish ~/.config/fish/functions/fish_user_key_bindings.fish
 ln -s ~/.dotfiles/.config/fish/functions/peco_select_history.fish ~/.config/fish/functions/peco_select_history.fish
-ln -s ~/.dotfiles/.config/fish/conf.d/tide.fish ~/.config/fish/conf.d/tide.fish
-mkdir ~/.config/peco
 ln -s ~/.dotfiles/.config/peco/config.json ~/.config/peco/config.json
 ln -s ~/.dotfiles/.config/nvim/init.lua ~/.config/nvim/init.lua
+ln -s ~/.dotfiles/.config/nvim/lazy-lock.json ~/.config/nvim/lazy-lock.json
 ln -s ~/developer/github_repository/dotfiles/.config/tmux/macos.conf  ~/.config/tmux/macos.conf
 ln -s ~/.dotfiles/.config/tmux/status_line.conf  ~/.config/tmux/status_line.conf
 ln -s ~/.dotfiles/.config/tmux/tmux.conf  ~/.config/tmux/tmux.conf
 ln -s ~/.dotfiles/.config/tmux/utility.conf  ~/.config/tmux/utility.conf
-```
-
-## Install homebrew software
-
-```bash
-# Install Homebrew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-# Then pass in the Brewfile location...
-brew bundle --file ~/.dotfiles/Brewfile
-
-# ...or move to the directory first.
-cd ~/.dotfiles && brew bundle
 ```
 
 #### Also check
