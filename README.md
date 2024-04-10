@@ -1,4 +1,4 @@
-# Dotfiles
+# Dotfiles (minimal version)
 
 Dotfiles is for storing dotfiles to kickstart.
 
@@ -80,6 +80,7 @@ brew install peco
 1. [.profile](.profile)
 1. [.zprofile](.zprofile)
 1. [.zshrc](.zshrc)
+1. [.zshenv](.zshenv)
 1. [.gitconfig](.gitconfig)
 1. [fish_user_key_bindings.fish](.config/fish/functions/fish_user_key_bindings.fish)
 1. [peco_select_history.fish](.config/fish/functions/peco_select_history.fish)
@@ -99,9 +100,8 @@ brew install peco
 1. [git](https://git-scm.com/download/mac)
 1. [node.js, npm](https://nodejs.org/en)
 1. [go](https://go.dev/)
-1. [pnpm](https://pnpm.io/installation) - Use this command: `curl -fsSL https://get.pnpm.io/install.sh | sh -`
+1. [pnpm](https://pnpm.io/installation) - Use command `curl -fsSL https://get.pnpm.io/install.sh | sh -`
 1. [gnupg](https://www.gnupg.org/download/) (for **`--gpg-sign`** tag in git commit)
-1. [cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html) (`rust` package manager)
 
 #### Images showing the things installed by brew
 
@@ -148,6 +148,7 @@ ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/moderator/.gitignore_global ~/.gitignore_global
 ln -s ~/.dotfiles/.profile ~/.profile
 ln -s ~.dotfiles/.zprofile ~/.zprofile
+ln -s ~.dotfiles/.zshenv ~/.zshenv
 ln -s ~/.dotfiles/.config/fish/config.fish ~/.config/fish/config.fish
 ln -s ~.dotfiles/.config/fish/config-osx.fish ~/.config/fish/config-osx.fish
 ln -s ~/.dotfiles/.config/fish/functions/fish_user_key_bindings.fish ~/.config/fish/functions/fish_user_key_bindings.fish

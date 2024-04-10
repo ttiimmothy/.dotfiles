@@ -1,1 +1,1 @@
-console.log("Hello via Pnpm");
+console.log("Hello via pnpm");
