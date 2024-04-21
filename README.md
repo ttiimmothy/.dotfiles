@@ -92,6 +92,8 @@ brew install peco
 1. [tmux/macos.conf](.config/tmux/macos.conf)
 1. [tmux/status_line.conf](.config/tmux/status_line.conf)
 1. [tmux/utility.conf](.config/tmux/utility.conf)
+1. [.warp/themes/color_dark.yml](.warp/themes/color_dark.yml)
+1. [.warp/themes/color_light.yml](.warp/themes/color_light.yml)
 
 ### Software installation (let the dotfiles work)
 
@@ -101,6 +103,7 @@ brew install peco
 1. [go](https://go.dev/)
 1. [pnpm](https://pnpm.io/installation) - Use command `curl -fsSL https://get.pnpm.io/install.sh | sh -`
 1. [gnupg](https://www.gnupg.org/download/) (for **`--gpg-sign`** tag in git commit)
+1. [Raycast](https://raycast.com/)
 
 #### Images showing the things installed by brew
 
@@ -160,6 +163,8 @@ ln -s ~/developer/github_repository/dotfiles/.config/tmux/macos.conf  ~/.config/
 ln -s ~/.dotfiles/.config/tmux/status_line.conf  ~/.config/tmux/status_line.conf
 ln -s ~/.dotfiles/.config/tmux/tmux.conf  ~/.config/tmux/tmux.conf
 ln -s ~/.dotfiles/.config/tmux/utility.conf  ~/.config/tmux/utility.conf
+ln -s ~/.dotfiles/.warp/themes/color_dark.yml  ~/.warp/themes/color_dark.yml
+ln -s ~/.dotfiles/.warp/themes/color_light.yml  ~/.warp/themes/color_light.yml
 ```
 
 #### Also check
