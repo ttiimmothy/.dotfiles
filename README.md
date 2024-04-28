@@ -107,7 +107,8 @@ brew install peco
 
 #### Images showing the things installed by brew
 
-![brew](images/homebrew/brew_software.png)
+![brew cellar](images/homebrew/brew_software.png)
+![brew caskroom](images/homebrew/brew_cask.png)
 
 `git`
 
@@ -124,6 +125,10 @@ brew install peco
 `ripgrep` (**important for neovim telescope searching**)
 
 [`git-lfs`](https://git-lfs.com/)
+
+`iterm`
+
+`chromium`
 
 ###### other softwares showing in the above image are default downloaded after installing `brew` and other softwares that mentioned above (like `luv` is installed itself after installing `neovim`), `don't` need to run `brew install $(software-name)`
 
